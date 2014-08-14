@@ -22,3 +22,21 @@ module.exports = app.toTree();
 /* add bootstrap */
 app.import('vendor/bootstrap/dist/js/bootstrap.js');
 app.import('vendor/bootstrap/dist/css/bootstrap.css');
+
+
+/* Add CSS files from DopeTrope theme */
+app.import('vendor/dopetrope/css/skel.css');
+app.import('vendor/dopetrope/css/style.css');
+app.import('vendor/dopetrope/css/style-desktop.css');
+/*
+app.import('vendor/dopetrope/css/style-1000px.css');
+app.import('vendor/dopetrope/css/style-mobile.css');
+*/
+app.import('vendor/dopetrope/css/font-awesome.min.css');
+
+
+
+/* Add JS files from DopeTrope theme */
+app.import('vendor/dopetrope/js/skel.min.js');
+app.import('vendor/dopetrope/js/skel-layers.min.js');
+app.import('vendor/dopetrope/js/init.js');
