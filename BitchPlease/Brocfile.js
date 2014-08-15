@@ -18,3 +18,23 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 module.exports = app.toTree();
+
+
+
+/* Add CSS files from DopeTrope theme */
+
+app.import('vendor/dopetrope/css/skel.css');
+app.import('vendor/dopetrope/css/style.css');
+
+app.import('vendor/dopetrope/css/style-desktop.css');
+/*
+app.import('vendor/dopetrope/css/style-1000px.css');
+app.import('vendor/dopetrope/css/style-mobile.css');
+app.import('vendor/dopetrope/css/font-awesome.min.css');
+*/
+
+/* Add JS files from DopeTrope theme */
+app.import('vendor/dopetrope/js/jquery.dropotron.min.js');
+app.import('vendor/dopetrope/js/skel.min.js');
+app.import('vendor/dopetrope/js/skel-layers.min.js');
+app.import('vendor/dopetrope/js/init.js');
