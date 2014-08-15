@@ -19,7 +19,9 @@ var app = new EmberApp();
 
 module.exports = app.toTree();
 
-
+/* add bootstrap */
+app.import('vendor/bootstrap/dist/css/bootstrap.min.css');
+app.import('vendor/bootstrap/dist/js/bootstrap.min.js');
 
 /* Add CSS files from DopeTrope theme */
 
