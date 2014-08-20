@@ -1,0 +1,28 @@
+Str8 Balling - https://youtu.be/p6pepmOEoho
+
+Party and Bullshit - https://youtu.be/rEaPDNgUPLE
+
+10 Crack Commandments - https://youtu.be/ZYb_8MM1tGQ
+
+Regulate - https://youtu.be/1plPyJdXKIY
+
+Bitches ain't shit - https://youtu.be/ic7KH1PpbMY
+
+Who am I? - https://youtu.be/-hIjgofcuWU
+
+
+ <!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js"
+data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':true,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':true,
+'playlist':[{'title':'Str8 Ballin','url':'https://youtu.be/p6pepmOEoho'},
+            {'title':'Party and Bullshit','url':'https://youtu.be/rEaPDNgUPLE'},
+            {'title':'The Message','url':'http://youtu.be/O4o8TeqKhgY'},
+            {'title':'Regulate','url':'https://youtu.be/1plPyJdXKIY'},
+            {'title':'Bitches ain't shit','url':'https://youtu.be/ic7KH1PpbMY'},
+            {'title':'Who am I?','url':'https://youtu.be/-hIjgofcuWU'},
+            {'title':'Gangster Party','url':'http://youtu.be/j0uQBwFMfBk'},
+            {'title':'10 Crack Commandments','url':'https://youtu.be/ZYb_8MM1tGQ'}]}" >
+</script>
+<!-- SCM Music Player script end -->
+
+
