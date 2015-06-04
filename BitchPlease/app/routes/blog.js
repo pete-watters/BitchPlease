@@ -19,9 +19,13 @@ export default Ember.Route.extend({
 
                     // for each blog entry returned store them in the store
                     for (var i = posts.length - 1; i >= 0; i--) {
-                          self.store.push('blog', {id: posts[i].id , post_title: 'Bitch Please Be Back', post_date: posts[i].timestamp, post_body: posts[i].caption});
+                          self.store.push('blog', { id: posts[i].id ,
+                                                    post_title: posts[i].caption,
+                                                    post_date: posts[i].date,
+                                                    post_body: posts[i].caption,
+                                                    post_url: posts[i].post_url
+                                                  });
                     };
-
               }
 
         });

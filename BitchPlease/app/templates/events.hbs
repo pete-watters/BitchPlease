@@ -7,26 +7,13 @@
                   <h2>Upcoming Events</h2>
                 </header>
                 <ul class="dates">
+                {{#each}}
                   <li>
-                    <span class="date">Sep <strong>4</strong></span>
-                    <h3><a href="#">Bitch Please - Dame Lane</a></h3>
-                    <p>Bitch Please will be running from our new location in 4 Dame Lane.</p>
-                  </li>
-                  <li>
-                    <span class="date">Oct <strong>6</strong></span>
-                    <h3><a href="#">Bitch Please - Dame Lane</a></h3>
-                    <p>Bitch Please will be running from our new location in 4 Dame Lane.</p>
-                  </li>
-                  <li>
-                    <span class="date">Nov <strong>10</strong></span>
-                    <h3><a href="#">Bitch Please - Dame Lane</a></h3>
-                    <p>Bitch Please will be running from our new location in 4 Dame Lane.</p>
-                  </li>
-                  <li>
-                    <span class="date">Dec <strong>17</strong></span>
-                    <h3><a href="#">Bitch Please - Dame Lane</a></h3>
-                    <p>Bitch Please will be running from our new location in 4 Dame Lane.</p>
-                  </li>
+                    <span class="date"><strong>{{post_date}}</strong></span>
+                    <h3><a href="#">{{post_title}}</a></h3>
+                    <p>{{{post_body}}}</p>
+                 </li>
+                {{/each}}
                 </ul>
 
           </div>
