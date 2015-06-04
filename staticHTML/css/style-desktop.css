@@ -233,6 +233,7 @@
 				-ms-transition: background-color .25s ease-in-out;
 				transition: background-color .25s ease-in-out;
 				outline: 0;
+				font-size: 25px;
 			}
 
 		#nav > ul > li:hover
@@ -334,7 +335,9 @@
 		#banner header
 		{
 			display: inline-block;
-			padding: 2.5em 5em;
+			padding: 0.5em 0.5em;
+			position: relative;
+			left: -150px;
 			border-radius: 5px;
 		}
 		
